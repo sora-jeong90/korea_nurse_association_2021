@@ -1,30 +1,28 @@
+@include font-face("NotoSansKR", "../font/notokr-light", $style: normal, $weight: 300);
+@include font-face("NotoSansKR", "../font/notokr-regular", $style: normal, $weight: 400);
+@include font-face("NotoSansKR", "../font/notokr-medium", $style: normal, $weight: 500);
+@include font-face("NotoSansKR", "../font/notokr-bold", $style: normal, $weight: 700);
+
+/* rubik-regular - latin */
+@font-face {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''),
+		url('../font/rubik-v14-latin-regular.woff2') format('woff2'),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */
+		url('../font/rubik-v14-latin-regular.woff') format('woff');
+	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+	font-family: 'GmarketSansMedium';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 
 
-
- @include font-face("NotoSansKR", "../font/notokr-light", $style: normal, $weight: 300);
- @include font-face("NotoSansKR", "../font/notokr-regular", $style: normal, $weight: 400);
- @include font-face("NotoSansKR", "../font/notokr-medium", $style: normal, $weight: 500);
- @include font-face("NotoSansKR", "../font/notokr-bold", $style: normal, $weight: 700);
- /* rubik-regular - latin */
- @font-face {
- 	font-family: 'Rubik';
- 	font-style: normal;
- 	font-weight: 400;
- 	src: local(''),
- 		url('../font/rubik-v14-latin-regular.woff2') format('woff2'),
- 		/* Chrome 26+, Opera 23+, Firefox 39+ */
- 		url('../font/rubik-v14-latin-regular.woff') format('woff');
- 	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
- }
-
- @font-face {
- 	font-family: 'GmarketSansMedium';
- 	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
- 	font-weight: normal;
- 	font-style: normal;
- }
- 
- 
 html,
 body,
 div,
@@ -32,7 +30,7 @@ span,
 applet,
 object,
 iframe,
-figure, 
+figure,
 h1,
 h2,
 h3,
@@ -154,7 +152,6 @@ a {
 
 select {
 	vertical-align: middle;
-	
 	padding-left: 10px;
 	color: #666;
 	border-radius: 0;
@@ -162,8 +159,13 @@ select {
 	font-size: 14px;
 	-webkit-appearance: none;
 	-moz-appearance: none;
+	background-image: url('../images/lnb_expand.svg');
+	background-repeat: no-repeat; 
+	background-position: calc(100% - 10px) center;
+	background-size: 18px;
 	appearance: none;
-	border: 1px solid #ddd;
+	border: 1px solid #bebebe;
+	position: relative;
 }
 
 select::-ms-expand {
@@ -178,7 +180,7 @@ textarea {
 
 textarea {
 	width: 100%;
-	border: 1px solid #ddd;
+	border: 1px solid #bebebe;
 	padding: 5px 10px;
 	line-height: 1.4 !important;
 }
@@ -190,8 +192,12 @@ textarea {
 	font-family: "NotoSansKR", "AppleGothic",
 		Verdana, Tahoma, Arial, sans-serif;
 	font-weight: 400;
+	border: 1px solid #bebebe;
+	height: 32px;
+	line-height: 32px;
+
 	&::placeholder {
-		color: #cccccc;
+		color: #777;
 	}
 }
 
@@ -212,11 +218,11 @@ input[type="submit"] {
 	cursor: pointer;
 	border: none;
 	font-family: "NotoSansKRR",
-	"AppleGothic",
-	Verdana,
-	Tahoma,
-	Arial,
-	sans-serif;
+		"AppleGothic",
+		Verdana,
+		Tahoma,
+		Arial,
+		sans-serif;
 	letter-spacing: -1px;
 }
 
@@ -315,9 +321,9 @@ html {
 	body {
 		background-color: transparent;
 		font-family: "NotoSansKR",
-		"Malgun Gothic",
-		"dotum",
-		-apple-system,
+			"Malgun Gothic",
+			"dotum",
+			-apple-system,
 			BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Fira Sans",
 			"Droid Sans", "Helvetica Neue", sans-serif;
 		font-weight: 400;
@@ -341,11 +347,11 @@ html {
 
 .tab-cnt {
 	display: none;
-	
 
-	&.on{
+
+	&.on {
 		display: block;
-		margin-top:40px;
+		margin-top: 40px;
 	}
 }
 
@@ -357,11 +363,15 @@ html {
 	margin-bottom: 0.8rem !important;
 }
 
-.mt-0 { 
-	margin-top:0 !important
+.mt-0 {
+	margin-top: 0 !important
 }
+
 .mt-10 {
 	margin-top: 1rem !important;
+}
+.mt-17 {
+	margin-top: 1.7rem !important;
 }
 
 .mt-15 {
@@ -374,6 +384,10 @@ html {
 
 .mt-30 {
 	margin-top: 3rem !important;
+}
+
+.mt-35 {
+	margin-top: 3.5rem !important;
 }
 
 .mt-40 {
@@ -402,4 +416,137 @@ html {
 
 .mt-100 {
 	margin-top: 10rem !important;
+}
+
+.tb-sub01-01 {
+	.w-pos {
+		width: 11.6%;
+	}
+
+	.w-name {
+		width: 12.5%;
+	}
+
+	.w-dept {
+		width: 63.33%;
+	}
+
+	.w-title {
+		width: 12.5%;
+	}
+}
+
+.tb-patient-info {
+	.w-patient-name {}
+
+
+	.iw-120 {
+		input {
+			width: 12rem;
+		}
+	}
+
+	.iw-160 {
+		input {
+			width: 16rem
+		}
+	}
+
+	.iw-300 {
+
+		input,
+		select {
+			width: 30rem
+		}
+	}
+}
+
+
+
+.radio-container {
+	display: block;
+	position: relative;
+	padding-left: 25px;
+	cursor: pointer;
+	font-size: 1.4rem;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	input {
+		position: absolute;
+		opacity: 0;
+		cursor: pointer;
+
+		&:checked~.checkmark:after {
+			display: block;
+		}
+	}
+
+	.checkmark {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 18px;
+		width: 18px;
+		border: 1px solid #bebebe;
+		border-radius: 50%;
+
+		&::after {
+			content: "";
+			position: absolute;
+			display: none;
+			top: 4px;
+			left: 4px;
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			background: #0062b4;
+		}
+	}
+}
+.check-container {
+	display: block;
+	position: relative;
+	padding-left: 21px;
+	cursor: pointer;
+	font-size: 1.4rem;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color:#777;
+	text-align: left;
+
+	input {
+		position: absolute;
+		opacity: 0;
+		cursor: pointer;
+
+		&:checked~.checkmark:after {
+			display: block;
+		}
+	}
+
+	.checkmark {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 14px;
+		width: 14px;
+		border: 1px solid #bebebe;
+
+		&::after {
+			content: "";
+			position: absolute;
+			display: none;
+			top: -3px; 
+			left: 2px;
+			width: 14px;
+			height: 14px;
+			transform: rotate(7deg);
+			background: url('../images/ico_check.svg') no-repeat center / 22px; 
+		}
+	}
 }

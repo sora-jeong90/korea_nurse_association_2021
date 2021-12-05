@@ -204,24 +204,11 @@ function m_gnb() {
 		}, 500);
 	});
 
-	// let sub_depth_len = $('.sub-depth').length;
-
-	// if (sub_depth_len == 2) {
-	// 	$('.sub-lnb').addClass('type2')
-	// } else if (sub_depth_len == 3) {
-	// 	$('.sub-lnb').addClass('type3')
-	// }
-	// $(".sub-depth .current").on("mouseenter focusin", function (e) {
-	// 	e.preventDefault();
-	// 	$(this).parent().find("ul").stop().slideDown(200);
-	// 	$(this).parent().addClass("on");
-	// });
-	// $(".sub-depth").on("mouseleave", function () {
-	// 	if ($(this).hasClass("on")) {
-	// 		$(this).find("ul").stop().slideUp(200);
-	// 		$(this).removeClass("on");
-	// 	}
-	// });
+	$('.btn-top').on('click', function () {
+		$('html, body').stop().animate({
+			scrollTop : 0
+		})
+	})
 }
 
 function skipContents() {

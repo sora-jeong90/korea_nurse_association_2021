@@ -1,0 +1,1481 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
+			user-scalable="no">
+		<meta http-equiv="X-UA-compatible" content="IE=10,chrome=1">
+		<meta name="Author" content="대한간호협회" />
+		<meta name="Keywords" content="대한간호협회" />
+		<meta name="Description" content="대한간호협회 " />
+		<!--style-->
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;600;700;900&display=swap"
+			rel="stylesheet">
+		<link rel="stylesheet" href="static/css/swiper.css" />
+		<link rel="stylesheet" href="static/css/ico_style.css" />
+		<link rel="stylesheet" href="static/css/style.css" />
+		<title>대한간호협회</title>
+	</head>
+
+	<body class="layout_sub">
+		<div class="skiptoContent">
+			<a href="#lnb">메뉴바로가기</a>
+			<a href="#main_content">메인콘텐츠 바로가기</a>
+			<a href="#footer_copy">하단 카피라이트 바로가기</a>
+		</div>
+		<div class="header">
+			<div class="header-container">
+				<h1 class="logo">
+					<a href="#">
+						<img src="static/images/logo_kns.png" alt="대한간호협회" class="logo_1">
+						<img src="static/images/logo_2.png" alt="지역환자안전센터" class="logo_2">
+					</a>
+				</h1>
+				<!--main menu-->
+
+				<nav id="lnb">
+					<ul class="nav-menu">
+						<li class="nav-item"><a href="#">지역환자 안전센터 소개</a></li>
+						<li class="nav-item"><a href="#">환자안전사고보고서</a></li>
+						<li class="nav-item"><a href="#">학습하기</a></li>
+						<li class="nav-item"><a href="#">자료실</a></li>
+						<li class="nav-item"><a href="#">설문</a></li>
+						<li class="nav-item"><a href="#">뉴스 & 공지</a></li>
+					</ul>
+				</nav>
+				<!--//main menu-->
+
+				<!--mobile menu -->
+				<nav class="m-nav">
+
+					<ul class="m-nav-menu">
+						<li class="m-nav-item on"><a href="#">지역환자 안전센터 소개</a></li>
+						<li class="m-nav-item"><a href="#">환자안전사고보고서</a></li>
+						<li class="m-nav-item"><a href="#">학습하기</a>
+							<div class="m-sub-nav">
+								<ul class="sub-nav-group">
+									<li><a href="">kops 학습하기</a></li>
+									<li><a href="#">지역환자 안전센터 환자안전통계</a></li>
+									<li><a href="#">지원실적</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="m-nav-item"><a href="#">자료실</a>
+							<div class="m-sub-nav">
+								<ul class="sub-nav-group">
+									<li><a href="#">중앙환자안전센터</a></li>
+									<li><a href="#">환자안전자료</a></li>
+									<li><a href="#">학술자료</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="m-nav-item"><a href="#">설문</a></li>
+						<li class="m-nav-item"><a href="#">뉴스 & 공지</a></li>
+					</ul>
+
+					<a href="#" class="btn-close">
+						<span></span>
+						<span></span>
+					</a>
+				</nav>
+				<!--//mobile menu -->
+			</div>
+
+			<a href="#" class="btn-menu">
+				<i>MENU</i>
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
+
+		</div>
+
+
+
+
+
+		<section class="sub-visual sub-visual02">
+			<div class="sub-visual-typo">
+				<p class="ko">환자 안전 사고 보고서</p>
+				<p class="en">Patient safety accident report.</p>
+			</div>
+		</section>
+
+		<nav class="sub-lnb">
+			<a href="#" class="home"><span class="blind">HOME</span></a>
+
+			<div class="sub-depth sub-depth01">
+				<strong class="current"><span>환자안전 사고 보고서 </span></strong>
+				<ul>
+					<li><a href="#">지역환자 안전센터 소개</a></li>
+					<li><a href="#">환자안전사고보고서</a></li>
+					<li><a href="#">학습하기</a></li>
+					<li><a href="#">자료실</a></li>
+					<li><a href="#">설문</a></li>
+					<li><a href="#">뉴스 & 공지</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<section class="sub-contents">
+			<div class="figure-w  pdn-b-120">
+				<h3 class="title-bullet-01">환자 정보</h3>
+
+				<div class="tb-type02 tb-patient-info">
+					<table>
+						<thead>
+							<tr>
+								<th class="b-patient-name">환자이름</th>
+								<th class="b-patient-dob">생년월일</th>
+								<th class="b-patient-gen">성별</th>
+								<th class="b-patient-sp">진료과</th>
+								<th class="b-patient-count">병상수(입력)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="b-patient-name">
+									<p class="b-label">환자이름</p>
+									<div class="input-box iw-120">
+										<input type="text" placeholder="환자이름입력">
+									</div>
+								</td>
+								<td class="b-patient-dob">
+									<p class="b-label">생년월일</p>
+									<div class="input-box iw-160">
+										<input type="text" placeholder="YYYY:MM:DD">
+									</div>
+								</td>
+								<td class="b-patient-gen">
+									<div class="input-box">
+										<label class="radio-container">여성
+											<input type="radio" checked="checked" name="gender">
+											<span class="checkmark"></span>
+										</label>
+										<label class="radio-container">남성
+											<input type="radio" name="gender">
+											<span class="checkmark"></span>
+										</label>
+									</div>
+								</td>
+								<td class="b-patient-sp">
+									<div class="input-box iw-300">
+										<select name="speciality" id="speciality">
+											<option value="select">진료과</option>
+											<option value="speciality1">진료과 1</option>
+											<option value="speciality2">진료과 2</option>
+											<option value="speciality3">진료과 3</option>
+										</select>
+									</div>
+								</td>
+								<td class="b-patient-count">
+									<div class="input-box iw-120">
+										<input type="text" placeholder="55">
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<h3 class="title-bullet-01">사고발생일시</h3>
+				<div class="tb-type02 tb-patient-info">
+					<table>
+						<colgroup>
+							<col width="15%">
+							<col width="35%">
+						</colgroup>
+						<tbody>
+							<tr>
+								<th class="nb-l">사고 발생 일시</th>
+								<td>
+									<div class="input-box input-time">
+										<input type="text" placeholder="YYYY:MM:DD">
+										<input type="text" placeholder="HH:MM">
+									</div>
+								</td>
+
+								<th>사고 발견 일시</th>
+								<td>
+									<div class="input-box input-time">
+										<input type="text" placeholder="YYYY:MM:DD">
+										<input type="text" placeholder="HH:MM">
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<h3 class="title-bullet-01">보건의료기관 </h3>
+				<div class="select-group">
+					<ul>
+						<li>
+							<label class="check-container">상급종합병원
+								<input type="checkbox" checked="checked" name="facility-select01">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">종합병원
+								<input type="checkbox" name="facility-select02">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">병원
+								<input type="checkbox" name="facility-select02">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">치과병원
+								<input type="checkbox" name="facility-select02">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">한의원
+								<input type="checkbox" name="facility-select02">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li class="li-position">
+							<div class="li-position-container"><label class="check-container">그밖의 기관
+									<input type="checkbox" name="facility-select02">
+									<span class="checkmark"></span>
+								</label>
+								<div class="input-box w-135">
+									<input type="text" placeholder="그밖의 기관입력">
+								</div>
+							</div>
+						</li>
+						<li>
+							<label class="check-container">요양병원
+								<input type="checkbox" checked="checked" name="facility-select01">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">정신병원
+								<input type="checkbox" name="facility-select02">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">의원
+								<input type="checkbox" name="facility-select02">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">치과의원
+								<input type="checkbox" name="facility-select02">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">요양병원
+								<input type="checkbox" name="facility-select02">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">약국
+								<input type="checkbox" checked="checked" name="facility-select01">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">보건소
+								<input type="checkbox" name="facility-select02">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">보건지소
+								<input type="checkbox" name="facility-select02">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">한방병원
+								<input type="checkbox" name="facility-select02">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">조산원
+								<input type="checkbox" name="facility-select02">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+					</ul>
+				</div>
+
+				<p class="help-text-gray">요양기관 규모 및 의료서비스 제공 범위에 따라 구분한 건강보험심사평가원 요양기관현황자료 내 요양기관 종별 분류 코드에 맞춰 기재하여
+					주십시오.</p>
+
+
+				<h3 class="title-bullet-01">사고발생장소 </h3>
+				<div class="select-group">
+					<ul>
+						<li>
+							<label class="check-container">서울
+								<input type="checkbox" checked="checked" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">부산
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">대구
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">광주
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">대전
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">울산
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">세종
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">경기
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">강원
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">충북
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">충남
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">전북
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">전남
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">경북
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">경남
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">제주
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+					</ul>
+				</div>
+				<p class="help-text-gray">요양기관 규모 및 의료서비스 제공 범위에 따라 구분한 건강보험심사평가원 요양기관현황자료 내 요양기관 종별 분류 코드에 맞춰 기재하여
+					주십시오.</p>
+
+
+				<h3 class="title-bullet-01">사고발생장소 </h3>
+				<div class="select-group">
+					<ul>
+						<li>
+							<label class="check-container">외래진료실
+								<input type="checkbox" checked="checked" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">입원실
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">중환자실
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">응급실
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">약제실
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">식당
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">처치/시술실
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">수술실
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">회복실
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">원무과
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">복도
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li class="li-position">
+							<div class="li-position-container"><label class="check-container">그밖의 장소
+									<input type="checkbox" name="facility-select02">
+									<span class="checkmark"></span>
+								</label>
+								<div class="input-box w-145">
+									<input type="text" placeholder="그밖의 기관입력">
+								</div>
+							</div>
+						</li>
+						<li>
+							<label class="check-container">인공신장실
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">화장실
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">샤워실
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">배선실
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">주사실
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">휴게공간
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">주차장
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">약국
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">검사실
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">재활, 물리치료실
+								<input type="checkbox" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+					</ul>
+				</div>
+
+				<h3 class="title-bullet-01">관련직원</h3>
+				<div class="select-group type-3">
+					<ul>
+						<li>
+							<label class="check-container">의사
+								<input type="checkbox" checked="checked" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">간호조무사
+								<input type="checkbox" checked="checked" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">관련직원 없음
+								<input type="checkbox" checked="checked" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">관련직원 약사
+								<input type="checkbox" checked="checked" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">의료기사
+								<input type="checkbox" checked="checked" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li class="li-position li-position-1">
+							<div class="li-position-container"><label class="check-container">그밖의 직원
+									<input type="checkbox" name="facility-select02">
+									<span class="checkmark"></span>
+								</label>
+								<div class="input-box w-135">
+									<input type="text" placeholder="그밖의 직원입력">
+								</div>
+							</div>
+						</li>
+						<li class="li-position2 li-nurse">
+							<div class="li-position-container"><label class="check-container">간호사
+									<input type="checkbox" name="facility-select02">
+									<span class="checkmark"></span>
+								</label>
+								<div class="input-box w-135">
+									<select name="" id="" class="nur-type">
+										<option value="간호사 종류">간호사 종류</option>
+									</select>
+									<select name="" id="" class="nur-exp">
+										<option value="경력">경력</option>
+									</select>
+								</div>
+							</div>
+						</li>
+						<li>
+							<label class="check-container">간병인.요양사
+								<input type="checkbox" checked="checked" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+					</ul>
+				</div>
+
+				<h3 class="title-bullet-01">사고발생단계 </h3>
+				<div class="tb-type02 tb-patient-info">
+					<table>
+						<colgroup>
+							<col width="15%">
+							<col width="85%">
+						</colgroup>
+						<tbody>
+							<tr>
+								<th class="nb-l">외래진료</th>
+								<td>
+									<div class="select-group type-inline">
+										<ul>
+											<li>
+												<label class="check-container">내원전
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">진료대기 중
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">진료 중
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">진료 의뢰
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th class="nb-l">입원진료</th>
+								<td>
+									<div class="select-group type-inline">
+										<ul>
+											<li>
+												<label class="check-container">입원 전
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">치료 및 수술전
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">치료 및 수술중
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">수술 직후 또는 중환자실 관리
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">일반병동치료
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">전과 및 전동
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">이송
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">이송
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">퇴원
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">퇴원 후
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">약국
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">가정간호
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li class="li-position li-position-1">
+												<div class="li-position-container"><label class="check-container">그밖의 단계
+														<input type="checkbox" name="facility-select02">
+														<span class="checkmark"></span>
+													</label>
+													<div class="input-box w-135">
+														<input type="text" placeholder="그밖의 단계입력">
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<h3 class="title-bullet-01">사고종류</h3>
+				<div class="tb-type02 tb-patient-info">
+					<table>
+						<colgroup>
+							<col width="15%">
+							<col width="85%">
+						</colgroup>
+						<tbody>
+							<tr>
+								<th class="nb-l">행위측면</th>
+								<td>
+									<div class="select-group type-inline">
+										<ul>
+											<li>
+												<label class="check-container">검사
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">마취진정
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">분만
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">수술
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">수혈
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">약물
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">처치·수술
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th class="nb-l">결과측면</th>
+								<td>
+									<div class="select-group type-inline">
+										<ul>
+											<li>
+												<label class="check-container">감염
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">낙상
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">화상
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th class="nb-l">결과측면</th>
+								<td>
+									<div class="select-group type-inline">
+										<ul>
+											<li>
+												<label class="check-container">상해
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">식사&middot;영양
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">진료재료(소모품)
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">탈원&middot;실종유유괴
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">행정
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">환자의자살 자해
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">전산장애
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li class="li-position li-position-1">
+												<div class="li-position-container"><label class="check-container">그밖의 종류
+														<input type="checkbox" name="facility-select02">
+														<span class="checkmark"></span>
+													</label>
+													<div class="input-box w-135">
+														<input type="text" placeholder="그밖의 종류입력">
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<h3 class="title-bullet-01">위해정도</h3>
+				<div class="select-group">
+					<ul>
+						<li>
+							<label class="check-container">1. 근접오류(Near miss)
+								<input type="checkbox" checked="checked" name="facility-select01">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">2. 위해없음(None)
+								<input type="checkbox" name="facility-select02">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">3. 경증(mild)
+								<input type="checkbox" name="facility-select02">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">4. 중등증(Moderate)
+								<input type="checkbox" name="facility-select02">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">5. 중증(Severe)
+								<input type="checkbox" name="facility-select02">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">6. 사망(Death)
+								<input type="checkbox" name="facility-select02">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+					</ul>
+				</div>
+
+
+				<div class="example-box">
+					<p class="tit">* 단계별 예시</p>
+					<ol class="ex-list">
+						<li><b>1) 근접오류(Near miss) :</b>사고가 발생할 뻔 했으나 우연한 또는 시의 적절한 중재를 통해 발생이 안 된 경우</li>
+						<li><b>2) 위해 없음(None) :</b> 사고가 발생했으나 환자에게 뚜렷한 위해가 발생하지 않은 경우</li>
+						<li><b>3) 경증(Mild) : </b>사고 발생으로 환자가 경미한 손상을 입었으며, 단기간 또는 최소한의 중재가 필요한 경우</li>
+						<li><b>4) 중등증(Moderate) : </b>사고 발생으로 환자가 장기적 손상을 입었으며, 입원기간이 연장되거나 추가 수술 및 처치 등의 중재가 필요한 경우
+						</li>
+						<li><b>5) 중증(Severe) : </b>사고 발생으로 환자가 영구적 손상을 입었으며, 퇴원 시 장애가 나타나거나 생명을 유지하기 위한 중재 또는 수술이 필요한 경우
+						</li>
+						<li><b>6) 사망(Death) :</b>사고 발생으로 환자가 사망한 경우</li>
+					</ol>
+				</div>
+
+				<h3 class="title-bullet-01">사고발생후 환자에 대한 조치</h3>
+				<div class="tb-type02 tb-patient-info">
+					<table>
+						<colgroup>
+							<col width="10%">
+							<col width="90%">
+						</colgroup>
+						<tbody>
+							<tr>
+								<th class="nb-l">조치</th>
+								<td>
+									<div class="select-group type-inline">
+										<ul>
+											<li>
+												<label class="check-container">기관 내 전과나 전동, 전원, 외래환자의 경우 응급실 방문/입원등
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">보존적 치료
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">추가 검사
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">투약 치료
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">처방 변경
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">전문심장소생술(ACLS)
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">수혈
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">수술, 시술
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">산소투여, 인공호흡기 치료 등
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">심리치료
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">교육
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">재불출
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">단순처치 재조제
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">협진
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">기록
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li class="li-position li-position-1">
+												<div class="li-position-container"><label class="check-container">그 밖의
+														조치
+														<input type="checkbox" name="facility-select02">
+														<span class="checkmark"></span>
+													</label>
+													<div class="input-box w-135">
+														<input type="text" placeholder="그 밖의 조치입력">
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th class="nb-l">조치</th>
+								<td>
+									<div class="select-group type-inline">
+										<ul>
+											<li>
+												<label class="check-container"> &nbsp;
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h3 class="title-bullet-01">내부보고</h3>
+				<div class="select-group">
+					<ul>
+						<li>
+							<label class="check-container">보고수행
+								<input type="checkbox" checked="checked" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">보고미수행
+								<input type="checkbox" checked="checked" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+					</ul>
+				</div>
+
+				<h3 class="title-bullet-01">환자설명</h3>
+				<div class="select-group type-inline2">
+					<ul>
+						<li>
+							<label class="check-container">설명수행
+								<input type="checkbox" checked="checked" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">설명미수행
+								<input type="checkbox" checked="checked" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">알수없음
+								<input type="checkbox" checked="checked" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+					</ul>
+				</div>
+
+
+				<h3 class="title-bullet-01">사고내용</h3>
+				<div class="textarea-box">
+					<p class="txt">사고 발생 당시의 상황, 내용 및 조치사항 등을 육하원칙에 따라 구체적으로 기술하여 주십시오.(0 / 3000)</p>
+					<textarea name="" id="" cols="30" rows="10"></textarea>
+				</div>
+				<h3 class="title-bullet-01">사고원인</h3>
+				<div class="textarea-box">
+					<p class="txt">사고의 원인에 대하여 생각나는대로 기술하여 주십시오.(0 / 3000)</p>
+					<textarea name="" id="" cols="30" rows="10"></textarea>
+					<p class="txt mt-17">근본원인 분석과 개선활동을 위한 지원이 필요하시면 체크하여 주시고, 연락처를 남겨주시기 바랍니다. </p>
+
+					<div class="cause">
+						<div class="check-support">
+							<label class="check-container">현장지원 필요
+								<input type="checkbox" checked="checked" name="facility-select01">
+								<span class="checkmark"></span>
+							</label>
+
+							<div class="support-user-info">
+								<dl>
+									<dt>전화번호</dt>
+									<dd class="input-phone">
+										<input type="text"> <span class="dash"></span>
+										<input type="text"> <span class="dash"></span>
+										<input type="text">
+									</dd>
+									<dt>이메일주소</dt>
+									<dd class="input-email">
+										<input type="text">
+										<select name="" id="">
+											<option value="직접입력">직접입력</option>
+										</select>
+									</dd>
+								</dl>
+							</div>
+						</div>
+
+						<div class="check-support">
+							<label class="check-container">현장지원 불필요
+								<input type="checkbox" name="facility-select01">
+								<span class="checkmark"></span>
+							</label>
+						</div>
+					</div>
+				</div>
+
+				<h3 class="title-bullet-01">사고보고자</h3>
+					<div class="select-group type-inline2">
+					<ul>
+						<li>
+							<label class="check-container">간호관리자(부장,과장)
+								<input type="checkbox" checked="checked" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">간호부서장(수간호사)
+								<input type="checkbox" checked="checked" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">간호사
+								<input type="checkbox" checked="checked" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+						<li>
+							<label class="check-container">전담자
+								<input type="checkbox" checked="checked" name="site1">
+								<span class="checkmark"></span>
+							</label>
+						</li>
+					</ul>
+				</div>
+				<h3 class="title-bullet-01">개선방안</h3>
+				<div class="tb-type02 tb-patient-info">
+					<table>
+						<colgroup>
+							<col width="15%">
+							<col width="85%">
+						</colgroup>
+						<tbody>
+							<tr>
+								<th class="nb-l al">1.환자요인</th>
+								<td>
+									<div class="select-group type-inline">
+										<ul>
+											<li>
+												<label class="check-container">충분한 진료제공/지원
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">환자교육/훈련제공
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">프로토콜/의사결정지원 제공
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">감시장치제공
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">약물조제보조기구 제공
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">그밖의 요인
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th class="nb-l al">2.직원요인</th>
+								<td>
+									<div class="select-group type-inline">
+										<ul>
+											<li>
+												<label class="check-container">훈련
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">오리엔테이션
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">감독/보조
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">피로관리전략
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">점검표/프로토콜/정책가용성
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">충분한 직원수 역랑
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">그밖의 요인
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th class="nb-l al">3.기관/환경요인</th>
+								<td>
+									<div class="select-group type-inline">
+										<ul>
+											<li>
+												<label class="check-container">물리적 환경과 요구를 맞춤
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">서비스 접근을 위한 조정
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">위험평가/근본원인분석
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">실행 현행 규범/명세서/규제충족
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">프로토콜/정책/의사결정지원에 신속한 접근준비
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">직원을 적절한 업무/기술에 배치
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">안전문화향상
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li class="li-position li-position-1">
+												<div class="li-position-container"><label class="check-container">그 밖의 요인
+														<input type="checkbox" name="facility-select02">
+														<span class="checkmark"></span>
+													</label>
+													<div class="input-box w-135">
+														<input type="text" placeholder="그 밖의 요인입력">
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th class="nb-l al">4.객체장비요인</th>
+								<td>
+									<div class="select-group type-inline">
+										<ul>
+											<li>
+												<label class="check-container">설비제공
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">기능강화
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">정기적 감사
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+											<li>
+												<label class="check-container">그밖의 요인
+													<input type="checkbox" name="site1">
+													<span class="checkmark"></span>
+												</label>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+
+				<p class="note-box-gray">검증 이후 (보고 접수일로부터 14일 이내) 보고자 연락처 및 이메일을 포함한 개인식별 정보는 모두 삭제되며, 검증 이외의 목적으로 활용하지 않습니다.</p>
+
+				<div class="btn-area">
+					<button class="btn-yellow btn-save">저장하기</button>
+					<button class="btn-blue btn-sene">보내기</button>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="policy">
+				<a href="#">개인정보처리방침</a>
+				<a href="#">이용약관</a>
+			</div>
+			<ul class="company-info">
+				<li>(04615) 서울특별시 중구 동호로 314(쌍림동 88-7) </li>
+				<li>T. 1588-6282 </li>
+				<li>F. 02-2260-2519</li>
+			</ul>
+			<p class="copy">Copyright ⓒ Korean Nurses Association, all rights reserved. </p>
+		</footer>
+
+		<a href="#" class="btn-top">TOP</a>
+		<!--js-->
+		<script type="text/javascript" src="static/js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="static/js/jquery-migrate-1.2.1.js"></script>
+		<script type="text/javascript" src="static/js/swiper.min.js"></script>
+		<script type="text/javascript" src="static/js/site.js"></script>
+
+
+
+		<script>
+			$('.chart-lv .mem-match').on('click', function (e) {
+				e.preventDefault();
+
+				let idx = $(this).attr('data-memindex');
+				$('.mem-match').removeClass('selected')
+				$(this).addClass('selected')
+				console.log(idx);
+				$('.memberlist').removeClass('selected');
+				$('.memberlist').eq(idx - 1).addClass('selected');
+			});
+		</script>
+	</body>
+
+</html>
