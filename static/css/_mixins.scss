@@ -119,13 +119,7 @@ $breakpoints: (
 	"tablet-wide": 1024px,
 	//custom break points
 	"contents": 1200px,
-	//"contents": 1200px,
-	"desk13": 1350px,
-	"desk14": 1440px,
-	"desk16": 1675px,
-	"desk15": 1550px,
-	"desk18": 1800px,
-	"desk19": 1920px ,
+	"type14": 1440px,
 );
 
 @mixin mq($width, $type: max) {
@@ -180,7 +174,3 @@ $color-green: #39ab44;
 	color: $color-light-blue;
 }
 
-
-@mixin serif {
-	font-family: 'Noto Serif KR', serif;
-}

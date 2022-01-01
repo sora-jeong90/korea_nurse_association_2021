@@ -530,7 +530,7 @@ $color-red: #f3272f;
 	line-height: 45px;
 }
 
-.btn-list, 
+.btn-list,
 .btn-go-list {
 	display: inline-block;
 	background: #333;
@@ -1076,6 +1076,9 @@ $color-red: #f3272f;
 	}
 }
 
+
+
+
 @include mq("contents") {
 	.tab-top {
 		width: 100%;
@@ -1200,15 +1203,18 @@ $color-red: #f3272f;
 
 	.post-nav {
 
-		.post-prev, 
+		.post-prev,
 		.post-next {
-			 line-height: 4.5rem; height: 4.5rem;
+			line-height: 4.5rem;
+			height: 4.5rem;
 		}
+
 		span {
 			width: 60px
 		}
+
 		p {
-			 width:calc(100% - 60px);
+			width: calc(100% - 60px);
 		}
 	}
 

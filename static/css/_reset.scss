@@ -22,6 +22,13 @@
 	font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;700&display=swap');
+
+@mixin serif {
+	font-family: 'Noto Serif KR', serif;
+}
+
+
 
 html,
 body,
@@ -93,6 +100,7 @@ body {
 	color: black;
 	background-color: transparent;
 	overflow-x: hidden;
+	min-width: 360px;
 }
 
 i,
@@ -437,7 +445,6 @@ html {
 }
 
 .tb-patient-info {
-	.w-patient-name {}
 
 
 	.iw-120 {
@@ -473,10 +480,13 @@ html {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-
-	input {
+	color:#777;
+	
+	> input {
 		position: absolute;
 		opacity: 0;
+		width: 1px;
+		height: 1px;
 		cursor: pointer;
 
 		&:checked~.checkmark:after {
@@ -519,9 +529,10 @@ html {
 	color:#777;
 	text-align: left;
 
-	input {
+	>input {
 		position: absolute;
 		opacity: 0;
+		width: 1px; height: 1px;
 		cursor: pointer;
 
 		&:checked~.checkmark:after {
@@ -549,4 +560,14 @@ html {
 			background: url('../images/ico_check.svg') no-repeat center / 22px; 
 		}
 	}
+}
+
+@include mq('tablet-small') { 
+
+	.check-container, 
+	.radio-container {
+		 font-size: 13px;
+	}
+
+	.radio-container .checkmark { top: -3px; }
 }
