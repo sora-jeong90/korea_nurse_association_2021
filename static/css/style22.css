@@ -1470,7 +1470,7 @@ html body {
 .sub-visual .typo p {
   font-size: 1.6rem;
   margin-top: 1.2rem;
-  font-family: "Rubik", "Noto Sans KR", sans-serif;
+  font-family: "Rubik", "NotoSansKR", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -2738,7 +2738,7 @@ html body {
 .prof-list .info-contact {
   padding: 0 20px;
   margin-top: 1.5rem;
-  font-family: "Rubik", "Noto Sans KR", sans-serif;
+  font-family: "Rubik", "NotoSansKR", sans-serif;
   font-weight: 400;
 }
 
@@ -2811,7 +2811,7 @@ html body {
   position: relative;
   padding-left: 10px;
   width: 20%;
-  font-family: "Rubik", "Noto Sans KR", sans-serif;
+  font-family: "Rubik", "NotoSansKR", sans-serif;
 }
 
 .prof-detail .info-top li::before {
@@ -3917,7 +3917,7 @@ html body {
   padding: 16px 10px;
   border-bottom: 1px solid #ddd;
   text-align: center;
-  font-family: "Rubik", "Noto Sans KR", sans-serif;
+  font-family: "Rubik", "NotoSansKR", sans-serif;
   font-weight: 400;
 }
 

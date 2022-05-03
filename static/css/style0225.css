@@ -781,7 +781,7 @@ html body {
 }
 
 .m-nav .m-sub-nav a {
-  font-family: 'NotoSansKR', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   color: #666;
 }
 
@@ -823,7 +823,7 @@ html body {
   line-height: 50px;
   color: #333;
   position: relative;
-  font-family: "NotoSansKR";
+  font-family: "Noto Sans KR";
 }
 
 #lnb .nav-menu .sub-nav {
@@ -3671,4 +3671,3 @@ footer .copy {
     width: 100%;
   }
 }
-/*# sourceMappingURL=style.css.map */
